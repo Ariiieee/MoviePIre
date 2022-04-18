@@ -6,14 +6,14 @@ import MovieCard from "./components/MovieCard";
 
 const API_URL = "http://www.omdbapi.com?apikey=40fbbf59";
 
-const movie1 = {
-  Title: "Shrek Forever After",
-  Year: "2010",
-  imdbID: "tt0892791",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg",
-};
+// const movie1 = {
+//   Title: "Shrek Forever After",
+//   Year: "2010",
+//   imdbID: "tt0892791",
+//   Type: "movie",
+//   Poster:
+//     "https://m.media-amazon.com/images/M/MV5BMTY0OTU1NzkxMl5BMl5BanBnXkFtZTcwMzI2NDUzMw@@._V1_SX300.jpg",
+// };
 
 const App = () => {
   const [movies, setMovies] = useState([]);
