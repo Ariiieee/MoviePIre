@@ -4,7 +4,7 @@ import SearchIcon from "./search.svg";
 
 import MovieCard from "./components/MovieCard";
 
-const API_URL = "http://www.omdbapi.com?apikey=40fbbf59";
+const API_URL = "https://www.omdbapi.com?apikey=40fbbf59";
 
 // const movie1 = {
 //   Title: "Shrek Forever After",
